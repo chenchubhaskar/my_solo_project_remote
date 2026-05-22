@@ -1,3 +1,19 @@
 # Temp notes for development
 * Research markdown syntax for README.md
 * Plan the next feature
+
+# How to Avoid This Next Time
+
+This conflict usually happens if you edit files directly on the GitHub website (like fixing a typo in the README) and then write new code on your local computer before pulling those web changes down.
+
+To keep your workflow smooth, practice this 3-step habit:
+
+1. Pull First: 
+Every time you sit down to code, run git pull before making any changes. This pulls down any tweaks you made online or on another device.
+
+2. Commit Local Changes: 
+Always save your local work with git commit before trying to sync with GitHub.
+
+3. Use the Rebase Flag: 
+If you ever forget step 1 and get the "diverged" warning again, use git pull --rebase immediately to stack your new work cleanly on top.
+
